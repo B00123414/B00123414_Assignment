@@ -1,0 +1,406 @@
+*{
+
+ padding: 0;
+ margin: 0;
+ text-decoration: none;
+
+ /*Aqui remove os pontos das listas ordernada*/
+ list-style: none;
+ 
+
+
+}
+
+body{
+   /*Aqui o tipo da Letra*/
+   font-family: montserrat;
+   background: white;
+
+}
+
+nav{
+
+    /*Aqui o fundo do primeiro bar no cabecalho*/
+   background: black; 
+   /*Aqui a altura do bar*/
+   height: 83px;
+   /*Aqui a largura do bar, se vc colocar 80% o bar diminui para direita */
+   width: 96.6%;
+   
+   font-family: montserrat;
+   
+   font-size: 25px;
+
+   text-align: center;
+
+   margin: 0px 15px 15px  30px;
+
+   
+}
+
+label {
+   
+   /*Aqui a cor do lable Renan's GYM*/
+   color: white;
+   /*Aqui o Tamanho do Label*/
+   font-size: 40px;
+   /*Aqui vc joga o label para cima e para baixo dentro do bar*/
+   line-height: 80px;
+   /*Aqui vc dimensiona o label para a posicao no bar*/
+   padding: 0 40px;
+   /*Aqui p Lable em Negrito */
+   font-weight: bold;
+   /*Aqui a cor de fundo do Lable*/
+   background: #1b81cf;
+
+   
+   
+}
+
+nav ul{
+
+   /*Aqui colocando a Lista Nao Ordenada (dentro do nav bar) que sao os Links HOME, ABOUT etc para o lado direito*/
+   float: right;
+   /*Aqui a margem da Lista Nao Ordenada*/
+   margin-right: 0px;
+
+   background: #1b81cf;
+
+}
+
+nav ul li{
+
+   /*Aqui deixando a Lista de Items sao os Links HOME, ABOUT etc alinhados um do lado do outro, no inicio estavam um em cima do outro*/
+   display: inline-block;
+   /*Aqui a altura da lista de items ao os Links HOME, ABOUT etc dando espaco para cima e para baixo dentro o bar*/
+   line-height: 80px;
+   /*Aqui a margem da Lista de items dando um espaco um do lado do outro entre os Links HOME, ABOUT etc*/
+   margin: 0 18px;
+   /*Aqui Lista de Items que sao os links em Negrito */
+   font-weight: bold;
+   /*Aqui o fundo/Background da Lista de Itens em Azul */
+   background: #1b81cf;
+
+}
+
+nav ul li a{
+   
+   /*Aqui Lista de Items que sao os links com a Cor preta */
+   color: black;
+   /*Aqui o Tamanho da Lista de Items que sao os links */
+   font-size: 17px;
+
+   padding: 7px 13px;
+   
+   border-radius: 3px;
+   /*Aqui Lista de Items que sao os links com as letras Maiusculas*/
+   text-transform: uppercase;
+   /*Aqui o Fundo/Background no contorno/emvolta da lista de items */
+   background: #1b81cf;
+
+
+}
+
+a.active,a:hover{
+
+   /*Aqui preenchimento de cor quando passa o mouse em volta da Lista de Items que sao os links*/
+   background: #ff761b;
+   transition: .5s;
+
+}
+
+.wrapper{
+   margin: 0px 0px ;
+
+   /*Aqui o primeiro px diminui o nav bar hori*/
+   padding: 10px 30px; 
+   /*Aqui o espaco enteo bar da foto e o bar dos icones face. insta... */
+   line-height: 0vh;
+   text-align: center;
+   
+   
+}
+
+.fb{
+ 
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   text-align: center;
+   background: white;
+}
+
+.insta{
+
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   text-align: center;
+   background: white; 
+
+}
+
+.tw{
+
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   text-align: center;
+   background: white;
+
+}
+
+
+#copyright{
+
+   padding: 10px  0px;
+   margin-left: 0px; 
+   height: 0px;
+   width: 0px;
+   display: flex;
+  
+   
+}
+
+
+.wrapper_img{
+
+   /* Aqui e o espacamento do bar onde esta os icones facebook e instagran, o primeiro px e o espcao entro o bar  do centro da pagina e o bar do icone, o segundo px incurta ou amenta o bar para esquerda, o terceiro px e o espacamento do final do bar para o fim da pagina o ultimo px incurta ou amenta o bar para direita*/
+   margin: 10px 30px 40px 30px;
+   /* Aqui o tamanho do bar dos icones */
+   padding: 10px 850px;
+   /* Aqui a cor do bar dos icones */
+   background-color: rgb(151, 131, 224);
+   /* Aqui a Largura do Bar onde esta os icones face, insta... */
+   height: 70px;
+   display: flex;
+   justify-content:space-around ;
+   align-items: center ;
+   height: 8vh;
+
+  
+
+}
+
+h2{
+
+    text-align: center;
+    padding: 100;
+    margin: 100;
+    text-decoration: underline;
+}
+
+h1{
+
+    text-align: center;
+    padding: 100;
+    margin: 100;
+    text-decoration: underline;
+
+}
+
+h4{
+
+   text-decoration: underline;
+
+}
+
+p{
+
+   text-align: center;
+   font-size: 20px;
+   line-height: 27px;
+    
+}
+
+.membershipimage{
+
+ 
+   text-align: center;
+
+}
+
+.facilities{
+
+text-align: center;
+
+}
+
+.price4{
+
+   text-align: middle;
+}
+
+.boxing{
+
+   text-align: center;
+}
+
+.cyclingimg{
+
+   text-align: center;
+
+
+}
+
+
+.cyclingimg1{
+
+   background-color: whitesmoke;
+   height: auto;
+   text-transform: uppercase;
+   text-align: center;
+
+}
+
+.beast{
+
+   text-align: center;
+
+}
+
+.food{
+
+   text-align: center;
+
+
+}
+
+.contact{
+
+   text-align: center;
+
+}
+
+.contact1{
+
+   margin: 0px 200px 20px;
+
+   
+   padding: 0px 200px 20px;
+
+   
+   background-color: rgb(49, 51, 209);
+
+   text-align: center;
+
+}
+
+#ph1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.address{
+
+     margin: 0px 200px 20px;
+     padding: 0px 200px 20px;
+     background-color: wheat;
+     text-align: center;
+
+}
+
+#email{
+
+   color: rgb(23, 199, 97);
+}
+
+.welcome{
+
+     background-color: whitesmoke;
+     text-transform: uppercase;
+     height: auto;
+     
+}
+
+.aboutus{
+    
+   background-color: whitesmoke;
+   text-transform: uppercase;
+   height: auto;
+
+}
+
+.facilities1{
+
+   background-color: whitesmoke;
+   height: auto;
+   text-transform: uppercase;
+
+}
+
+.membership{
+
+   background-color: whitesmoke;
+   height: auto;
+   text-transform: uppercase;
+
+}
+
+.boxing{
+   
+   background-color: whitesmoke;
+   height: auto;
+   text-transform: uppercase;
+   text-align: center;
+
+}
+
+.boxingimg{
+
+   text-align: center;
+}
+
+.cycling{
+
+   background-color: whitesmoke;
+   height: auto;
+   text-transform: uppercase;
+   text-align: center;
+
+}
+
+.cyclingimg2{
+
+  
+   background-color: whitesmoke;
+   height: auto;
+   text-transform: uppercase;
+   text-align: center;
+
+}
+.danceimagevideo{
+
+   text-align: center;
+}
+
+.dance{
+
+   background-color: whitesmoke;
+   height: auto;
+   text-transform: uppercase;
+   text-align: center;
+
+}
+
+.beast{
+
+   background-color: whitesmoke;
+   height: auto;
+   text-transform: uppercase;
+   text-align: center;
+
+}
+
+.food{
+
+   background-color: whitesmoke;
+   height: auto;
+   text-transform: uppercase;
+   text-align: center;
+
+
+}
+
